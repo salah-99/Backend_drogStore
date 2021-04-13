@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: true}));
 
 
 // DB Connection
-mongoose.connect('mongodb://localhost/drogstore', {
+mongoose.connect('mongodb+srv://salah:salah@cluster0.1vude.mongodb.net/drogstore?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
